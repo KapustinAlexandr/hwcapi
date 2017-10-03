@@ -1,1 +1,1 @@
-﻿HWCAPI
+﻿HWCAPI 1.0
