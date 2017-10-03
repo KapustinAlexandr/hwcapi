@@ -21,8 +21,7 @@ sys.path.append(os.path.abspath('exts'))
 extensions = [
     'sphinx.ext.autodoc',
     'sphinx.ext.intersphinx',
-    'sphinx.ext.graphviz',
-    'sphinxcontrib.httpdomain'
+    'sphinx.ext.graphviz'
 ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -133,7 +132,7 @@ if not on_rtd:  # only import and set the theme if we're building docs locally
 
 # The name of an image file (relative to this directory) to place at the top
 # of the sidebar.
-#html_logo = '_static/diadoc-logo.png'
+#html_logo = '_static/hwcapi-logo.png'
 
 # The name of an image file (within the static path) to use as favicon of the
 # docs.  This file should be a Windows icon file (.ico) being 16x16 or 32x32
@@ -233,7 +232,7 @@ latex_documents = [
 
 # The name of an image file (relative to this directory) to place at the top of
 # the title page.
-#latex_logo = '_static/diadoc-logo.png'
+#latex_logo = '_static/hwcapi-logo.png'
 
 # For "manual" documents, if this is true, then toplevel headings are parts,
 # not chapters.
