@@ -18,11 +18,11 @@ sys.path.append(os.path.abspath('exts'))
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 
-extensions = [
-    'sphinx.ext.autodoc',
-    'sphinx.ext.intersphinx',
-    'sphinx.ext.graphviz'
-]
+# extensions = [
+#     'sphinx.ext.autodoc',
+#     'sphinx.ext.intersphinx',
+#     'sphinx.ext.graphviz'
+# ]
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
@@ -205,7 +205,7 @@ html_search_language = 'ru'
 #html_search_scorer = 'scorer.js'
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'hwcapi_doc'
+htmlhelp_basename = 'hwcapidoc'
 
 # -- Options for LaTeX output ---------------------------------------------
 
@@ -359,4 +359,4 @@ epub_exclude_files = ['search.html']
 
 
 # Example configuration for intersphinx: refer to the Python standard library.
-intersphinx_mapping = {'https://docs.python.org/': None}
+#intersphinx_mapping = {'https://docs.python.org/': None}
