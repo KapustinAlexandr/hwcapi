@@ -21,8 +21,7 @@
 
 Параметры
 ---
-.. code-block:: json
-    :caption:Пример
+::
 
     {
         "Owner": "GOGOL",
