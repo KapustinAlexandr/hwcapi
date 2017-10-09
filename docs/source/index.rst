@@ -6,7 +6,9 @@ Description
 
 
 .. toctree::
-   :maxdepth: 2
+    :name:api
+    :maxdepth: 1
+    :caption:Методы
 
    Поступление <api/inbound>
 
