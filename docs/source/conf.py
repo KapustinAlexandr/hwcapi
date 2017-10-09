@@ -2,10 +2,10 @@
 
 import shlex
 import sphinx_rtd_theme
-import sys, os
-from recommonmark.parser import CommonMarkParser
+# import sys, os
+# from recommonmark.parser import CommonMarkParser
 
-sys.path.append(os.path.abspath('exts'))
+# sys.path.append(os.path.abspath('exts'))
 
 # If extensions (or modules to document with autodoc) are in another directory,
 # add these directories to sys.path here. If the directory is relative to the
@@ -31,7 +31,7 @@ templates_path = ['_templates']
 # You can specify multiple suffix as a list of string:
 
 source_suffix = ['.rst', '.md']
-source_parsers = {'.md': CommonMarkParser}
+# source_parsers = {'.md': CommonMarkParser}
 
 # The encoding of source files.
 #source_encoding = 'utf-8-sig'
@@ -102,12 +102,12 @@ todo_include_todos = False
 # -- Options for HTML output ----------------------------------------------
 
 # on_rtd is whether we are on readthedocs.org, this line of code grabbed from docs.readthedocs.org
-on_rtd = os.environ.get('READTHEDOCS', None) == 'True'
+# on_rtd = os.environ.get('READTHEDOCS', None) == 'True'
 
-if not on_rtd:  # only import and set the theme if we're building docs locally
-    import sphinx_rtd_theme
-    html_theme = 'sphinx_rtd_theme'
-    html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
+# if not on_rtd:  # only import and set the theme if we're building docs locally
+import sphinx_rtd_theme
+html_theme = 'sphinx_rtd_theme'
+html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
 
 # otherwise, readthedocs.org uses their theme by default, so no need to specify it
 
